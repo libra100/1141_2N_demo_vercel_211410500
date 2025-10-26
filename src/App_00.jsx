@@ -5,7 +5,13 @@ import {
   BlogStaticPage_00,
   BlogLocalJsonPage_00,
   BlogNodePage_00,
+  BlogSupaPage_00,
+  BooklistPage_00,
 } from './pages';
+import {
+  T11_ErrorExamplePage_00,
+  T12_UseStateBasicsPage_00,
+} from './pages/tutorials';
 
 const router = createBrowserRouter([
   {
@@ -27,6 +33,28 @@ const router = createBrowserRouter([
       {
         path: 'node_00',
         element: <BlogNodePage_00 />,
+      },
+      {
+        path: 'supa_00',
+        element: <BlogSupaPage_00 />,
+      },
+      {
+        path: 'booklist_00',
+        element: <BooklistPage_00 />,
+      },
+    ],
+  },
+  {
+    path: 'tutorials/',
+    element: <HomeLayoutPage_00 />,
+    children: [
+      {
+        path: 't11_00',
+        element: <T11_ErrorExamplePage_00 />,
+      },
+      {
+        path: 't12_00',
+        element: <T12_UseStateBasicsPage_00 />,
       },
     ],
   },

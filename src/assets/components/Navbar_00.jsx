@@ -115,6 +115,9 @@ const Navbar_00 = () => {
                 <div className='sub-menu-wrapper slideInUp'>
                   <ul className='sub-menu'>
                     <li className='menu-item'>
+                      <Link to='/booklist_00'>W2-Booklist_00</Link>
+                    </li>
+                    <li className='menu-item'>
                       <Link to='/static_00'>W3-BlogStatic_00</Link>
                     </li>
                     <li className='menu-item'>
@@ -129,8 +132,22 @@ const Navbar_00 = () => {
                   </ul>
                 </div>
               </li>
-              <li className='menu-item'>
-                <Link to='#'>Blog</Link>
+              <li className='menu-item dropdown'>
+                <Link to='#'>Tutorials +</Link>
+                <div className='sub-menu-wrapper slideInUp'>
+                  <ul className='sub-menu'>
+                    <li className='menu-item'>
+                      <Link to='/tutorials/t11_00'>
+                        T11_ErrorExamplePage_00
+                      </Link>
+                    </li>
+                    <li className='menu-item'>
+                      <Link to='/tutorials/t12_00'>
+                        T12_UseStateBasicsPage_00
+                      </Link>
+                    </li>
+                  </ul>
+                </div>
               </li>
               <li className='menu-item'>
                 <Link to='#'>Contact</Link>
