@@ -3,6 +3,7 @@ import { FaMugSaucer, FaGlobe } from 'react-icons/fa6';
 
 // import blogData_00 from '../assets/data/blogData.json';
 import Blog_00 from '../assets/components/Blog_00';
+import Wrapper from '../assets/wrappers/Blog2_00.jsx';
 
 let api_url = 'http://localhost:5001/api/blog_00';
 
@@ -27,7 +28,7 @@ const BlogLocalJsonPage_00 = () => {
   }, []);
 
   return (
-    <>
+    <Wrapper>
       <section className='blogs'>
         <div className='section-title'>
           <h2>
@@ -50,7 +51,7 @@ const BlogLocalJsonPage_00 = () => {
           })}
         </div>
       </section>
-    </>
+    </Wrapper>
   );
 };
 

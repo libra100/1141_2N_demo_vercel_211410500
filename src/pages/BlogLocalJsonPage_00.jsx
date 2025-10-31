@@ -2,14 +2,15 @@ import { use, useState } from 'react';
 import { FaMugSaucer, FaGlobe } from 'react-icons/fa6';
 
 import blogData_00 from '../assets/data/blogData.json';
-import Blog_00 from '../assets/components/Blog_00';
+import Blog_00 from '../assets/components/Blog_00.jsx';
+import Wrapper from '../assets/wrappers/Blog2_00.jsx';
 
 const BlogLocalJsonPage_00 = () => {
   const [name, setName] = useState('蔡松恩');
   const [id, setId] = useState(211410500);
   const [blogs_00, setBlogs_00] = useState(blogData_00);
   return (
-    <>
+    <Wrapper>
       <section className='blogs'>
         <div className='section-title'>
           <h2>
@@ -32,7 +33,7 @@ const BlogLocalJsonPage_00 = () => {
           })}
         </div>
       </section>
-    </>
+    </Wrapper>
   );
 };
 

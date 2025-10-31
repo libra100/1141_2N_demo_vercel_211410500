@@ -3,6 +3,7 @@ import { useState, useEffect } from 'react';
 import Blog_00 from '../assets/components/Blog_00.jsx';
 
 import { supabase } from '../db/clientSupabase';
+import Wrapper from '../assets/wrappers/Blog2_00.jsx';
 
 const BlogSupaPage_00 = () => {
   const [name, setName] = useState('蔡松恩');
@@ -25,7 +26,7 @@ const BlogSupaPage_00 = () => {
   }, []);
 
   return (
-    <>
+    <Wrapper>
       <section className='blogs'>
         <div className='section-title'>
           <h2>
@@ -48,7 +49,7 @@ const BlogSupaPage_00 = () => {
           })}
         </div>
       </section>
-    </>
+    </Wrapper>
   );
 };
 

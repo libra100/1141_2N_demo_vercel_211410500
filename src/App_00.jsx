@@ -4,6 +4,7 @@ import {
   HomeLayoutPage_00,
   BlogStaticPage_00,
   BlogLocalJsonPage_00,
+  BlogLocalJsonPage2_00,
   BlogNodePage_00,
   BlogSupaPage_00,
   BooklistPage_00,
@@ -11,6 +12,7 @@ import {
 import {
   T11_ErrorExamplePage_00,
   T12_UseStateBasicsPage_00,
+  T21_UseEffectCodeExamplePage_00,
 } from './pages/tutorials';
 
 const router = createBrowserRouter([
@@ -29,6 +31,10 @@ const router = createBrowserRouter([
       {
         path: 'localjson_00',
         element: <BlogLocalJsonPage_00 />,
+      },
+      {
+        path: 'localjson2_00',
+        element: <BlogLocalJsonPage2_00 />,
       },
       {
         path: 'node_00',
@@ -55,6 +61,10 @@ const router = createBrowserRouter([
       {
         path: 't12_00',
         element: <T12_UseStateBasicsPage_00 />,
+      },
+      {
+        path: 't21_00',
+        element: <T21_UseEffectCodeExamplePage_00 />,
       },
     ],
   },

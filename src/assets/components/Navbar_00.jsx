@@ -127,7 +127,10 @@ const Navbar_00 = () => {
                       <Link to='/node_00'>W04-BLogNode_00</Link>
                     </li>
                     <li className='menu-item'>
-                      <Link to='#'>W5-BlogSupa_00</Link>
+                      <Link to='/supa_00'>W5-BlogSupa_00</Link>
+                    </li>
+                    <li className='menu-item'>
+                      <Link to='/localjson2_00'>W7-BlogLocalJson2_00</Link>
                     </li>
                   </ul>
                 </div>
@@ -144,6 +147,11 @@ const Navbar_00 = () => {
                     <li className='menu-item'>
                       <Link to='/tutorials/t12_00'>
                         T12_UseStateBasicsPage_00
+                      </Link>
+                    </li>
+                    <li className='menu-item'>
+                      <Link to='/tutorials/t21_00'>
+                        T21_UseEffectCodeExamplePage_00
                       </Link>
                     </li>
                   </ul>
