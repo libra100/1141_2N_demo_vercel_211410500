@@ -6,3 +6,4 @@ export { default as BlogLocalJsonPage2_00 } from './BlogLocalJsonPage2_00';
 export { default as BlogNodePage_00 } from './BlogNodePage_00';
 export { default as BlogSupaPage_00 } from './BlogSupaPage_00';
 export { default as BooklistPage_00 } from './BooklistPage_00';
+export { default as P4_SupaPage_00 } from './P4_SupaPage_00';

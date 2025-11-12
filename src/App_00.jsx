@@ -8,6 +8,7 @@ import {
   BlogNodePage_00,
   BlogSupaPage_00,
   BooklistPage_00,
+  P4_SupaPage_00,
 } from './pages';
 import {
   T11_ErrorExamplePage_00,
@@ -65,6 +66,15 @@ const router = createBrowserRouter([
       {
         path: 't21_00',
         element: <T21_UseEffectCodeExamplePage_00 />,
+      },
+    ],
+  },
+  {
+    path: 'midtern/',
+    children: [
+      {
+        path: 'p4_00',
+        element: <P4_SupaPage_00 />,
       },
     ],
   },
