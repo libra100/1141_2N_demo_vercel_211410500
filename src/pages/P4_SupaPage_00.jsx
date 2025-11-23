@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
-import Product_00 from '../../components/midterm/Product_00';
-import Wrapper from '../../assets/wrappers/midterm/Shop_00';
+import Product_00 from './../assets/components/midterm/Product_00';
+import Wrapper from './../assets/wrappers/midterm/Shop_00';
 import { supabase } from '../db/clientSupabase';
 
 const P4_SupaPage_00 = () => {
